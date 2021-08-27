@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Menu() {
+export default function NavBar() {
   return (
     <nav>
       <div>
@@ -19,7 +19,7 @@ export default function Menu() {
         </Link>
       </div>
       <div>
-        <Link href="/home">
+        <Link href="/">
           <a>Home</a>
         </Link>
       </div>
